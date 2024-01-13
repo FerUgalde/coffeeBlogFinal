@@ -1,0 +1,239 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*utilities*/
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: rgb(177, 98, 45);
+    text-transform: uppercase;
+    padding: 8px 13px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin: 1rem 0;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h3{
+    margin-top: 20px;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1rem;
+}
+.border-line{
+    width: 55%;
+    border-bottom: 2px rgb(177, 98, 45) solid;
+    margin-bottom: 30px;
+}
+/*header*/
+.site-init, nav{
+    background: url(./img/banner.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.site-init{
+    height: 300px;
+}
+nav{
+    height: 80px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/*nav*/
+.nav-heigth{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.nav-contact{
+    background: black;
+}
+
+/*main*/
+main{
+    width: 70%;
+}
+main img{
+    margin-bottom: 1rem;
+}
+span{
+    font-weight: bold;
+}
+
+/*blog*/
+.blog-container{
+    margin-top: 20px;
+}
+.blog-container p{
+    margin-top: 20px;
+}
+.blog-container .btn{
+    background-color: black;
+}
+
+/*about us*/
+.extra-pages-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1rem;
+    text-align: justify;
+}
+.about-content img{
+    max-width: 60%;
+}
+.about-content div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/*contact*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+}
+.form-inputs{
+    background-color: white;
+    padding: 20px;
+    margin-top: -50px;
+}
+.form-inputs .btn{
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+}
+.form-inputs div{
+    margin: 20px;
+}
+.form-inputs input, .form-inputs textarea{
+    width: 70%;
+    padding: 5px;
+}
+.form-inputs label{
+    display: inline-block;
+    width: 80px;
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icons-contact{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+/*courses*/
+.course-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 1rem 0;
+    text-align: justify;
+}
+.course-content h2{
+    margin-bottom: 20px;
+}
+.course-img{
+    max-width: 300px;
+    max-height: 350px;
+}
+.course-img img{
+    width: 100%;
+    height: 100%;
+}
+.courses-container .border-line{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    width: 94%;
+}
+.course-content .btn{
+    margin-top: 45px;
+    margin-bottom: 0;
+    background-color: black;
+}
+.benefits-courses{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0;
+}
+.benefits-courses div{
+    text-align: center;
+    width: 200px;
+}
+.benefits-courses i{
+    font-size: 20px;
+    color: rgb(177, 98, 45);;
+}
+/*footer*/
+footer{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    color: white;
+    align-items: center;
+}
+.site-end{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.title-end{
+    margin-top: 1rem;
+}
+.more-sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
